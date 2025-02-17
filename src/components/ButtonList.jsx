@@ -1,9 +1,6 @@
 // Importo array di oggetti
 import data from "../data/languages";
 
-// Importo react
-import React from "react";
-
 // Importo lo stato
 import { useState } from "react";
 
@@ -35,6 +32,7 @@ export default function ButtonList() {
           </div>
         ))}
       </div>
+      
     </div>
   );
 
